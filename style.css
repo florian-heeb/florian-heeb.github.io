@@ -211,6 +211,10 @@ main{min-width:0;padding-block:28px 0}
   .foot-addr{display:none}
 }
 
+/* Legal notice: one short reading column, small type */
+.page{max-width:40rem;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:40px max(24px,env(safe-area-inset-bottom,0px));font-size:var(--fs-sm);color:var(--ink-2)}
+.legal h1{margin:32px 0 8px;font-size:var(--fs-md);font-weight:600;color:var(--ink)}
+
 @media (prefers-reduced-motion:no-preference){
   html{scroll-behavior:smooth}
   a,.dc-cta{transition:color .15s,background-color .15s,border-color .15s,text-decoration-color .15s,box-shadow .2s,transform .2s}

@@ -8,9 +8,10 @@ Plain HTML and CSS: no framework, no build step, no cookies, no tracking, no thi
 | File | What it is |
 |---|---|
 | `index.html` | The homepage (one page) |
+| `impressum.html` | Minimal legal notice and privacy note (linked from the footer) |
 | `style.css` | All styles, light and dark theme |
 | `Florian_Heeb_CV.pdf` | CV, compiled from `06_Tenure_Track/LaTeX_CV/CV_Florian_Heeb.tex` |
-| `assets/headshot.jpg` | Portrait `Heeb.jpg` (Nov 2024 shoot); backdrop lifted +0.5 EV outside a protected subject mask, subject pixels unchanged |
+| `assets/headshot.jpg` | Portrait `Heeb.jpg` (Nov 2024 shoot); backdrop brightened in two side bands (exposure + gamma), with the subject protected by a mask and left unedited |
 | `assets/dear-chair-cover.jpg` | Title slide of the Dear Chair explorable |
 | `assets/og-image.jpg` | Link-preview image (1200 × 630) for LinkedIn, Slack, etc. |
 | `fonts/` | Self-hosted fonts (IBM Plex Sans, Source Serif 4, subsets of IBM Plex Mono and Besley) with their SIL Open Font License texts |
