@@ -9,6 +9,7 @@ Plain HTML and CSS: no framework, no build step, no cookies, no tracking, no thi
 |---|---|
 | `index.html` | The homepage (one page) |
 | `impressum.html` | Minimal legal notice and privacy note (linked from the footer) |
+| `sitemap.xml`, `robots.txt` | For search engines; update `lastmod` in the sitemap after larger changes |
 | `style.css` | All styles, light and dark theme |
 | `Florian_Heeb_CV.pdf` | CV, compiled from `06_Tenure_Track/LaTeX_CV/CV_Florian_Heeb.tex` |
 | `assets/headshot.jpg` | Portrait `Heeb.jpg` (Nov 2024 shoot); backdrop brightened in two side bands (exposure + gamma), with the subject protected by a mask and left unedited |
