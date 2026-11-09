@@ -135,6 +135,7 @@ main{min-width:0;padding-block:28px 0}
 .meta{margin-top:8px;display:flex;flex-wrap:wrap;align-items:center;gap:6px 14px;font-size:var(--fs-sm);line-height:1.45;color:var(--ink-2)}
 .venue cite{color:var(--ink)}
 .btns{display:inline-flex;flex-wrap:wrap;gap:6px}
+.authors .btns{margin-left:6px;vertical-align:middle}
 .tbtn{display:inline-flex;align-items:center;gap:4px;min-height:26px;padding:3px 9px 3px 11px;border:1px solid var(--accent-line);border-radius:999px;font-size:var(--fs-xs);font-weight:600;line-height:1;letter-spacing:.01em;color:var(--accent);text-decoration:none}
 .tbtn:hover{background:var(--accent-soft);border-color:var(--accent);color:var(--accent-hover)}
 .status{display:inline-block;padding:3px 9px;border-radius:4px;background:var(--accent-soft);color:var(--ink);font-size:var(--fs-xs);font-weight:500;line-height:1.45}
