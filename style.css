@@ -134,6 +134,9 @@ main{min-width:0;padding-block:28px 0}
 .authors{margin-top:4px;font-size:var(--fs-sm);color:var(--ink-2)}
 .meta{margin-top:8px;display:flex;flex-wrap:wrap;align-items:center;gap:6px 14px;font-size:var(--fs-sm);line-height:1.45;color:var(--ink-2)}
 .venue cite{color:var(--ink)}
+.btns{display:inline-flex;flex-wrap:wrap;gap:6px}
+.tbtn{display:inline-flex;align-items:center;gap:4px;min-height:26px;padding:3px 9px 3px 11px;border:1px solid var(--accent-line);border-radius:999px;font-size:var(--fs-xs);font-weight:600;line-height:1;letter-spacing:.01em;color:var(--accent);text-decoration:none}
+.tbtn:hover{background:var(--accent-soft);border-color:var(--accent);color:var(--accent-hover)}
 .status{display:inline-block;padding:3px 9px;border-radius:4px;background:var(--accent-soft);color:var(--ink);font-size:var(--fs-xs);font-weight:500;line-height:1.45}
 .note{margin-top:8px;display:flex;gap:7px;align-items:flex-start;font-size:var(--fs-sm);font-weight:500;line-height:1.45;color:var(--accent)}
 .note .i{margin-top:.15em}
@@ -223,7 +226,7 @@ main{min-width:0;padding-block:28px 0}
 
 @media print{
   :root{--bg:#fff;--ink:#000;--ink-2:#333;--ink-3:#444;--accent:#000}
-  .skip,.links,.dc{display:none!important}
+  .skip,.links,.dc,.btns{display:none!important}
   .wrap{display:block}
   .profile{position:static}
   a{text-decoration:none;color:inherit}
