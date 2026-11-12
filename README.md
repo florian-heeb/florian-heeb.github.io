@@ -9,6 +9,7 @@ Plain HTML and CSS: no framework, no build step, no cookies, no tracking, no thi
 |---|---|
 | `index.html` | The homepage (one page) |
 | `impressum.html` | Minimal legal notice and privacy note (linked from the footer) |
+| `llms.txt` | Short site description for AI agents, including the notice on use of the email address (also hidden in `index.html` and `impressum.html`, and at the top of `robots.txt`) |
 | `sitemap.xml`, `robots.txt` | For search engines; update `lastmod` in the sitemap after larger changes |
 | `style.css` | All styles, light and dark theme |
 | `papers/` | Paper PDFs behind the PDF buttons (journal PDFs only for open-access articles; SSRN versions for working papers) |
